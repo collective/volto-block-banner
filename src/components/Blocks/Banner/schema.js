@@ -1,4 +1,4 @@
-export const BannerSchema = () => ({
+export default () => ({
   title: 'Banner',
   fieldsets: [
     {

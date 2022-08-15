@@ -1,6 +1,6 @@
 import React from 'react';
 import { BlockDataForm, SidebarPortal } from '@plone/volto/components';
-import { BannerSchema } from '@plone-collective/volto-block-banner/components/Blocks/Banner/schema';
+import BannerSchema from '@plone-collective/volto-block-banner/components/Blocks/Banner/schema';
 
 const BannerSidebar = (props) => {
   const { data, block, onChangeBlock, selected } = props;
