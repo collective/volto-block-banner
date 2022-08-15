@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Image } from 'semantic-ui-react';
-import OrangeCircleImage from '@plone-collective/volto-block-banner/components/Blocks/Banner/cta-shape.png';
+import OrangeCircleImage from '@plone-collective/volto-block-banner/../assets/cta-shape.png';
 import '@plone-collective/volto-block-banner/components/Blocks/Banner/banner.less';
 
 const View = ({ data }) => {
