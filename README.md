@@ -3,7 +3,7 @@
 A [volto](https://plone.org/what-is-plone/volto) [block](https://6.dev-docs.plone.org/volto/blocks/index.html) [add-on](https://6.dev-docs.plone.org/volto/addons/index.html) for a banner. It contains two sub-elements:
 
 1. `Text`: The display text of the banner.
-1. `CTA-Button`: Call to action button.
+1. `CTA-Button`: Call To Action (CTA) button.
 
 ## Customizable properties
 
@@ -29,11 +29,11 @@ A [volto](https://plone.org/what-is-plone/volto) [block](https://6.dev-docs.plon
 text: 'This is a Banner!! Put your message here!'
 showActionButton: true
 actionButtonText: 'Take Action'
-actionButtonUrl: /
-backgroundColor: #2b4eff
-textColor: #ffffff
+actionButtonUrl: '/'
+backgroundColor: '#2b4eff'
+textColor: '#ffffff'
 showCircle: true
-marginBottom: 15px
+marginBottom: '15px'
 ```
 
 ### Output
