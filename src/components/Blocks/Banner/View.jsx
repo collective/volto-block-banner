@@ -4,7 +4,6 @@ import OrangeCircleImage from '@plone-collective/volto-block-banner/../assets/ct
 import '@plone-collective/volto-block-banner/components/Blocks/Banner/banner.less';
 
 const View = ({ data }) => {
-  // console.log(data);
   return (
     <div
       className="banner"
