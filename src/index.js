@@ -6,9 +6,9 @@ import {
 import iconSVG from '@plone/volto/icons/presentation.svg';
 
 const applyConfig = (config) => {
-  config.blocks.blocksConfig.banner = {
+  config.blocks.blocksConfig.educalBanner = {
     id: 'banner',
-    title: 'Banner',
+    title: 'Educal Banner',
     icon: iconSVG,
     group: 'common',
     view: BannerView,
@@ -22,7 +22,6 @@ const applyConfig = (config) => {
       view: [],
     },
   };
-  // console.log(config);
   return config;
 };
 
