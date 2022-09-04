@@ -20,7 +20,6 @@ export default () => ({
     text: {
       title: 'Text',
       type: 'string',
-      defaultValue: 'Put your message here!',
     },
     showActionButton: {
       title: 'Enable Button',
