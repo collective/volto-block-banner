@@ -7,7 +7,7 @@ import iconSVG from '@plone/volto/icons/presentation.svg';
 
 const applyConfig = (config) => {
   config.blocks.blocksConfig.educalBanner = {
-    id: 'banner',
+    id: 'educalBanner',
     title: 'Educal Banner',
     icon: iconSVG,
     group: 'common',
